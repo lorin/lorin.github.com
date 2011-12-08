@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Lorin Hochstein's Miscellaneous Content</title>
+    <meta name="description" content="Lorin Hochstein's miscellaneous content">
+    <meta name="author" content="Lorin Hochstein">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+     <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.3.0/bootstrap.min.css">
+     <style type="text/css">
+      /* Override some defaults */
+      html, body {
+        background-color: #eee;
+      }
+      body {
+        padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+      }
+      .container > footer p {
+        text-align: center; /* center align it with the container */
+      }
+      .container {
+        width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+      }
+
+      /* The white background content wrapper */
+      .content {
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+        -webkit-border-radius: 0 0 6px 6px;
+           -moz-border-radius: 0 0 6px 6px;
+                border-radius: 0 0 6px 6px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      }
+
+      /* Page header tweaks */
+      .page-header {
+        background-color: #f5f5f5;
+        padding: 20px 20px 10px;
+        margin: -20px -20px 20px;
+      }
+
+      /* Styles you shouldn't keep as they are for displaying this base example only */
+      .content .span10,
+      .content .span4 {
+        min-height: 500px;
+      }
+      /* Give a quick and non-cross-browser friendly divider */
+      .content .span4 {
+        margin-left: 0;
+        padding-left: 19px;
+        border-left: 1px solid #eee;
+      }
+
+      .topbar .btn {
+        border: 0;
+      }
+
+    </style>
+</head>
+<body>
+
+
+    <!-- Topbar
+    ================================================== -->
+    <div class="topbar" >
+      <div class="topbar-inner">
+        <div class="container">
+          <a class="brand" href="index.html">Lorin Hochstein</a>
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li  class="active"><a href="misc.html">Miscellaneous</a></li>
+            <li><a href="cv.pdf">CV (PDF)</a></li>
+            <li><a href="http://www.isi.edu/people/lorin/blog">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+   <div class="container">
+      <div class="content">
+      	<div class="row">
+        	<div class="span14">
+					<h3 class="post-title">Erdos Number</h3>
+					<p>
+					My <a href="http://en.wikipedia.org/wiki/Erdos_number">Erdos number</a> is 3: (me -&gt; <a href="http://www.umiacs.umd.edu/~vishkin/index.shtml">U. Vishkin</a> -&gt; <a href="http://www.math.tau.ac.il/~nogaa/">N. M. Alon</a> -&gt; <a href="http://en.wikipedia.org/wiki/Paul_Erdos">Paul Erdos</a>). </p>
+
+					<h3 class="post-title">Exercise</h3>
+<p>
+						When I lived in Fairfax, I used to sometimes <a href="bike-map.html">bike to work</a>. My bike was since stolen, so that's no longer an option. However, I do try to run regularly. So far, my max distance has been 13.1 miles:</p>
+<iframe width='465' height='548' frameborder='0' src='http://connect.garmin.com:80/activity/embed/34129451'></iframe>
+
+						<h3 class="post-title">Hochsteins still in academia</h3>
+						<ul>
+							<li>
+								<a href="http://dbonline.concordia.ca/faculty/FMPro?-DB=faculty+expertise.fp5&amp;-Format=facultyresults2.htm&amp;last+name=hochstein&amp;first+name=alan&amp;-lay=concordia+form&amp;-find">My father</a>
+							</li>
+							<li>
+								<a href="http://artsweb.uwaterloo.ca/~eghochst/">My brother</a>
+							</li>
+						</ul>
+						<h3 class="post-title">
+							Bugs in scientific software
+						</h3>
+						<p>
+							Errors in bioinformatics code lead to generation of incorrect matrices used for sequence alignment, which go undetected for 15 years. Ironically, fixing the matrices worsens software performance (<a href="http://dx.doi.org/10.1038/nbt0308-274">letter in Nature</a>).
+						</p>
+						<p>
+							Swapped data columns leads to incorrect protein crystal structure publications (<a href="http://www.sciencemag.org/cgi/content/full/314/5807/1856">as reported in Science</a>, <a href="http://www.sciencemag.org/cgi/content/full/sci;314/5807/1875b">official retraction</a>, <a href="http://genomebiology.com/2007/8/2/103" title="Genome Biology | Full text | And the second shall be first">Genome biology commentary</a>).
+						</p>
+						<p>
+							New code can't reproduce results of old code in astrophysics application (<a href="http://dx.doi.org/10.1038/nature05298">official retraction in Nature</a>).
+						</p>
+						<p>
+							Incorrect computer simulation "reproduces" wrong experimental discovery of sonoluminescent fusion (<a href="http://www.highproductivity.org/vol58no1p35_41.pdf">Computational Science Demands a New Paradigm</a> by Post and Votta)
+						</p>
+						<ul>
+							<li>
+								<a href="http://dx.doi.org/10.1126/science.1067589">Taleyarkhan et al, Science 295(2002), p. 1868</a>
+							</li>
+							<li>Shapira, et al, PRL, 89(2002), p.104302.
+							</li>
+							<li>
+								<a href="http://dx.doi.org/10.1126/science.295.5561.1808">Seife, Science 295(2002), p. 1808</a>
+							</li>
+							<li><a href="http://news.uns.purdue.edu/x/2008b/080718PurdueReport.pdf">Purdue University research misconduct investigation report</a> (PDF)</li>
+						</ul>
+						<p>
+							Computational predictions wrongly characterized performance of a proposed thermonuclear reactor (<a href="http://www.highproductivity.org/vol58no1p35_41.pdf">Computational Science Demands a New Paradigm by Post and Votta</a>).
+						</p>
+						<p>
+							Differences in precision across multiple seismic data processing applications (<a href="http://dx.doi.org/10.1109/32.328993">TSE paper</a>, Computational Sci &amp; Eng paper).
+						</p>
+						<p>
+							Bug in a Perl script results in a <a href="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.0030158" title="PLoS Computational Biology: Retraction: Measures of Clade Confidence Do Not Correlate with Accuracy of Phylogenetic Trees">retraction</a> (doi:10.1371/journal.pcbi.0030158) of computational biology paper. The <a href="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.0030051">retracted paper</a> (doi:10.1371/journal.pcbi.0030051) challenged the utility of a particular metric for evaluating the reliability of phylogenetic trees.
+						</p>
+					<h3 class="post-title">Open source projects</h3>
+          These are projects that I have some involvement in.
+					<ul>
+           <li><a href="http://github.com/openstack/nova">OpenStack Compute</a></li>
+           <li><a href="http://github.com/tepperly/MixDown">MixDown</a></li>
+					 <li><a href="http://code.google.com/p/shelllogger/">ShellLogger</a></li>
+					 <li><a href="http://code.google.com/p/activitygraph/">ActivityGraph</a></li>
+           <li><a href="http://code.google.com/p/umdinst/">UMDinst</a></li>
+           <li><a href="http://github.com/lorin/make2dot">Make2Dot</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
