@@ -4,46 +4,14 @@
 <html>
 <head>
 <title>{{ page.title }}</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta charset="utf-8" />
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    <link href="local.css" rel="stylesheet">
 
 </head>
-
-
-<!--
-<body>
-	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a href="/" class="navbar-brand">Lorin Hochstein</a>
-			</div>
-			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-					<li>Home</li>
-					<li>Publications</li>
-					<li>Blog</li>
-					<li>Tech blog</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<h1>Generic header</h1>
-
-{{ content }}
-
-	</div>
-</body>
--->
 
   <body>
 
@@ -55,13 +23,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="/">Lorin Hochstein</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="http://lorinhochstein.wordpress.com">Blog</a></li>
+            <li><a href="https://lorinstechblog.wordpress.com/">Tech blog</a></li>
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -69,10 +38,7 @@
 
     <div class="container">
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
+{{ content }}
 
     </div><!-- /.container -->
   </body>
