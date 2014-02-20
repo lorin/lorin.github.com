@@ -1,9 +1,0 @@
-{
-  "keys": ["username", "password"] ,
-  "values": [
-    ["steve", "h4x0R"],
-    ["joe1", "silly"],
-    ["jack", "<3jill"],
-    ["jill", "<3jack"]
-  ]
-}
