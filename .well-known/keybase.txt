@@ -4,58 +4,49 @@ https://keybase.io/lorin
 
 I hereby claim:
 
-  * I am an admin of http://lorinhochstein.org
+  * I am an admin of https://lorinhochstein.org
   * I am lorin (https://keybase.io/lorin) on keybase.
-  * I have a public key with fingerprint 4DCD DC44 8576 BDC8 A748  D496 AD39 34D4 CDC9 8E74
+  * I have a public key ASBR2Fv6tYAWlp-BmSRLhBNCWqAE5ZE3dj25dwiEJFv_6go
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "fingerprint": "4dcddc448576bdc8a748d496ad3934d4cdc98e74",
-            "host": "keybase.io",
-            "key_id": "ad3934d4cdc98e74",
-            "uid": "26cc206d47c124ac158de32b41caf200",
-            "username": "lorin"
-        },
-        "service": {
-            "hostname": "lorinhochstein.org",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "012051d85bfab58016969f8199244b8413425aa004e59137763db9770884245bffea0a",
+      "host": "keybase.io",
+      "kid": "012051d85bfab58016969f8199244b8413425aa004e59137763db9770884245bffea0a",
+      "uid": "26cc206d47c124ac158de32b41caf200",
+      "username": "lorin"
     },
-    "ctime": 1397004077,
-    "expire_in": 157680000,
-    "prev": "9d4f355d1a93d62b05cdbb9b8d6558b34ad2ea5db0c3bb45e45b325b2baef431",
-    "seqno": 3,
-    "tag": "signature"
+    "merkle_root": {
+      "ctime": 1572581146,
+      "hash": "f390d088e662a3c4832a1f6c8944dbc971ebfffd4e343510501e0f1050840974f5be28f8bd3b507d6d01872a34ebbdf0cf4e6c92e7506f2d4703c0877896a8f3",
+      "hash_meta": "559da8f125a40fc8963f95431338672e1f76225e9d165c8393eba465a1ec6fd4",
+      "seqno": 8581460
+    },
+    "service": {
+      "entropy": "G8jgOLODuZaPIj9gwbH5EPIV",
+      "hostname": "lorinhochstein.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.2"
+  },
+  "ctime": 1572581154,
+  "expire_in": 504576000,
+  "prev": "2b3e35050479a293481f1e48b9a52231d985c58eb7acc613cd1667dacb7a66d7",
+  "seqno": 27,
+  "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v0.1.5
-Comment: https://keybase.io/crypto
-
-yMHxAnicbVFNTBRXHJ+VghTXYGIIRmlMHpQEs4X5eLMzs5WmNqRIY5RaD2jQZd7H
-7g7CzDI7LF23SwMUD01DoNDQ1lMbWkpIvJWmCV2QGNCsEjRZogESpSHVA7G1GBRJ
-4C2xiYe+y+T9Pv9v/tf3ZnF5rpHN9cTfdyY6XKnJtVbuk6rBd+IAWSQGfHFwke58
-AoYZpHbYNkwH+AAkmBAMoSorXkSwqitQJVDz6kTSJEggJlhTqQKBB4SsSMbBYpAe
-oeWGxTB28RuEof+jb90hRC/GIu8lUMGCCHUsyCqhkoiggPWAyPMZYYTapt5MmbrJ
-YnOBhAcwKGpgBsV3el+nQxYORRxqmOWWHWT2sG05FraaGB9ynLAvY3di4Yy+jSL/
-qyQ/MkzCns4MUWpHDMsEPoEpsWNkogVJU3ge8oriAfTTsGFTPxvEJ7DfovLsZGpo
-lEVqBAYkWSaCrknEKyJexgQhDanEK8sqkqBORKrLBPFYQgjKFMpIEmUkIp0GoCSw
-/ghtMS3gk9iYepBFRoygqTutNgWJqcn6NzhXHpeTvSuzPC7vzX3/rbRb2L2lLysn
-4LH6vtL3Yp5bZU9ib5cMHxk/XJn/tSt1f7Ez97TrbOXa5SG39fHivax07ca3xzsf
-pd2pmeqe0a70s9621FxD/qHJ1Y2Vn0rDWX0HnZ7mreXEF6NvTYWrGleig79/VHvq
-avBcTfaPY+NWWUHg+V3uyz3dhROyxrdMJd1/lV1As7XnY0OPP5i+CQeL3z155SXo
-/aytCNz2dWweWJ6tWOsPLQ315ySLkkL8e/fSn8Uf7t+qLjn69ME3DSD353Eu+iI6
-MZzuahT+ran4beOX7y4tJB8WmnX//DEyn14sSE0LM4U3mr4aqO5prytw53w+ELo2
-90MVGnv/DDe/Wr/+a/vCNhK9Gpk=
-=4wRe
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUdhb+rWAFpafgZkkS4QTQlqgBOWRN3Y9uXcIhCRb/+oKp3BheWxvYWTESpcCG8QgKz41BQR5opNIHx5IuaUiMdmFxY63rMYTzRZn2st6ZtfEIFzb4MzHodHFnHr8oXMPsjVJwiddQ48q0EIyQOdOFsbgAgHCo3NpZ8RAryY1lKkx/f3wFcyPi4rQaaJT9CDZp0VD4V6BfG7DFQc1OSrvQO+ZDnbeyl2z7EYgptxwh0Tc9NQYgjB7G6nJA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIP+A6rXTUejdkvm/rf7x8H5/pVIFVAZYRHtjsPJi55Qjo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -63,4 +54,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/lorin
 
 ==================================================================
-
