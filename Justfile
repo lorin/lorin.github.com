@@ -1,5 +1,5 @@
 run:
-	jekyll serve
+	bundle exec jekyll serve
 
 deps:
 	bundle install
